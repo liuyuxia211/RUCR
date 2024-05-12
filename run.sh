@@ -1,0 +1,18 @@
+python main.py \
+--uniform_left 0.35 \
+--uniform_right 0.95 \
+--feat_loss_arg 0.15 \
+--crt_ep 20 \
+--local_bal_ep 50 \
+--crt_feat_num 100 \
+--lr_cls_balance 0.01 \
+--t 0.9 \
+--lr_local_training=0.1 \
+--num_classes=10 \
+--num_clients=20 \
+--num_online_clients=8 \
+--num_rounds=150 \
+--num_epochs_local_training=10 \
+--batch_size_local_training=32 \
+--non_iid_alpha=0.5 \
+--imb_factor=0.01 \
